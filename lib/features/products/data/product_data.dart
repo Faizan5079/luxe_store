@@ -1,0 +1,68 @@
+import '../models/product.dart';
+
+const List<Product> products = [
+  Product(
+    name: 'Classic Linen Shirt',
+    category: 'Men',
+    price: '₹1,499',
+    oldPrice: '₹1,999',
+    image: 'https://images.unsplash.com/photo-1603252109303-2751441dd157?w=600',
+    rating: 4.8,
+  ),
+  Product(
+    name: 'Minimalist Handbag',
+    category: 'Women',
+    price: '₹2,499',
+    oldPrice: '₹3,299',
+    image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600',
+    rating: 4.7,
+  ),
+  Product(
+    name: 'Everyday Sneakers',
+    category: 'Men',
+    price: '₹2,199',
+    oldPrice: '₹2,999',
+    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600',
+    rating: 4.6,
+  ),
+  Product(
+    name: 'Elegant Sunglasses',
+    category: 'Accessories',
+    price: '₹999',
+    oldPrice: '₹1,499',
+    image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600',
+    rating: 4.5,
+  ),
+  Product(
+    name: 'Casual Summer Dress',
+    category: 'Women',
+    price: '₹1,899',
+    oldPrice: '₹2,499',
+    image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600',
+    rating: 4.9,
+  ),
+  Product(
+    name: 'Premium Wrist Watch',
+    category: 'Accessories',
+    price: '₹3,499',
+    oldPrice: '₹4,299',
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600',
+    rating: 4.8,
+  ),
+  Product(
+    name: 'Classic Denim Jacket',
+    category: 'Men',
+    price: '₹2,799',
+    oldPrice: '₹3,499',
+    image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600',
+    rating: 4.6,
+  ),
+  Product(
+    name: 'Leather Shoulder Bag',
+    category: 'Women',
+    price: '₹2,199',
+    oldPrice: '₹2,999',
+    image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600',
+    rating: 4.7,
+  ),
+];
